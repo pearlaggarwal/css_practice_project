@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(204, 160, 103);
+    height: 600px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.styling{
+    border:80px solid black;
+    width: 200px;
+    height:200px;
+    border-radius: 60px;
+    position: relative;
+}
+
+
+.styling::before,
+.styling::after {
+    content:" ";
+    position: absolute;
+    width: 80px;    
+    height: 80px;   
+    background: white;
+}
+
+.styling::before {
+    top: -80px;
+    left: -80px;
+}
+.styling::after {
+    bottom: -80px;
+    right: -80px;
+}
