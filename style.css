@@ -10,7 +10,8 @@ body{
     border:80px solid black;
     width: 200px;
     height:200px;
-    border-radius: 60px;
+    border-radius: 0px 130px 0px 130px;
+    
     position: relative;
 }
 
